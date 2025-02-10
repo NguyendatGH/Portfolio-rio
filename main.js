@@ -1,3 +1,7 @@
+function toggleMenu() {
+    document.querySelector(".nav-menu").classList.toggle("show");
+  }
+  
 document.addEventListener("DOMContentLoaded", function () {
     const cards = document.querySelectorAll(".project-card");
     const heroCommit = document.querySelector(".hero-commitment");
